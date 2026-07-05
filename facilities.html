@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Facilities — Man Sukh | The Business Village</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Poppins:wght@300;400;500;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header id="siteHeader">
+  <div class="container nav-wrap">
+    <a href="index.html" class="logo">
+      <div class="logo-mark">من</div>
+      <div class="logo-text">
+        <span class="en" data-en="Man Sukh" data-ur="من سکھ">Man Sukh</span>
+        <span class="sub" data-en="The Business Village" data-ur="دی بزنس ولیج">The Business Village</span>
+      </div>
+    </a>
+
+    <nav class="main-nav">
+      <a href="about.html" data-en="About / Vision" data-ur="ہمارے بارے میں">About / Vision</a>
+      <a href="master-plan.html" data-en="Master Plan" data-ur="ماسٹر پلان">Master Plan</a>
+      <a href="investment.html" data-en="Investment" data-ur="سرمایہ کاری">Investment</a>
+      <a href="properties.html" data-en="Properties" data-ur="پراپرٹیز">Properties</a>
+      <a href="facilities.html" style="color:var(--green-deep);font-weight:700;" data-en="Facilities" data-ur="سہولیات">Facilities</a>
+      <a href="gallery.html" data-en="Gallery" data-ur="گیلری">Gallery</a>
+      <a href="contact.html" data-en="Contact" data-ur="رابطہ">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang-toggle">
+        <button class="active" data-lang="en" onclick="setLang('en')">EN</button>
+        <button data-lang="ur" onclick="setLang('ur')">اردو</button>
+      </div>
+      <a href="contact.html" class="btn btn-outline-dark" data-en="Contact Us" data-ur="رابطہ کریں">Contact Us</a>
+      <div class="burger" onclick="toggleMobileNav()"><span></span><span></span><span></span></div>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-overlay" id="mOverlay" onclick="toggleMobileNav()"></div>
+<div class="mobile-nav" id="mNav">
+  <a href="about.html" onclick="toggleMobileNav()" data-en="About / Vision" data-ur="ہمارے بارے میں">About / Vision</a>
+  <a href="master-plan.html" onclick="toggleMobileNav()" data-en="Master Plan" data-ur="ماسٹر پلان">Master Plan</a>
+  <a href="investment.html" onclick="toggleMobileNav()" data-en="Investment" data-ur="سرمایہ کاری">Investment</a>
+  <a href="properties.html" onclick="toggleMobileNav()" data-en="Properties" data-ur="پراپرٹیز">Properties</a>
+  <a href="facilities.html" onclick="toggleMobileNav()" data-en="Facilities" data-ur="سہولیات">Facilities</a>
+  <a href="gallery.html" onclick="toggleMobileNav()" data-en="Gallery" data-ur="گیلری">Gallery</a>
+  <a href="contact.html" onclick="toggleMobileNav()" data-en="Contact" data-ur="رابطہ">Contact</a>
+</div>
+
+<section class="page-banner" style="--banner-img:url('https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=80');">
+  <div class="container">
+    <div class="crumb"><a href="index.html">Home</a> / <span data-en="Facilities" data-ur="سہولیات">Facilities</span></div>
+    <h1 data-en="Everything a family needs, inside the village" data-ur="خاندان کو درکار ہر چیز، گاؤں کے اندر">Everything a family needs, inside the village</h1>
+    <p data-en="From fitness to festivals — the facilities are designed to fill your calendar without leaving home." data-ur="فٹنس سے لے کر تہواروں تک — سہولیات آپ کے کیلنڈر کو گھر سے باہر نکلے بغیر بھرنے کے لیے ڈیزائن کی گئیں۔">From fitness to festivals — the facilities are designed to fill your calendar without leaving home.</p>
+  </div>
+</section>
+
+<section class="about" style="padding-top:90px;padding-bottom:0;">
+  <div class="container">
+    <div class="facility-row reveal">
+      <div>
+        <div class="eyebrow" data-en="The Club" data-ur="کلب">The Club</div>
+        <h2 data-en="A members' club for every age" data-ur="ہر عمر کے لیے ممبرز کلب">A members' club for every age</h2>
+        <p data-en="From morning laps to evening badminton, the club is the social heart of the village." data-ur="صبح کی تیراکی سے لے کر شام کے بیڈمنٹن تک، کلب گاؤں کا سماجی مرکز ہے۔">From morning laps to evening badminton, the club is the social heart of the village.</p>
+        <ul class="fac-list">
+          <li data-en="Olympic-sized swimming pool" data-ur="اولمپک سائز سوئمنگ پول">Olympic-sized swimming pool</li>
+          <li data-en="Indoor gym and fitness studio" data-ur="انڈور جم اور فٹنس اسٹوڈیو">Indoor gym and fitness studio</li>
+          <li data-en="Tennis, badminton & squash courts" data-ur="ٹینس، بیڈمنٹن اور اسکواش کورٹس">Tennis, badminton & squash courts</li>
+          <li data-en="Kids' play zone" data-ur="بچوں کا پلے زون">Kids' play zone</li>
+        </ul>
+      </div>
+      <div class="fac-media"><img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80" alt="The Club"></div>
+    </div>
+
+    <div class="facility-row reveal">
+      <div>
+        <div class="eyebrow" data-en="Café District" data-ur="کیفے ڈسٹرکٹ">Café District</div>
+        <h2 data-en="Where evenings turn into gatherings" data-ur="جہاں شامیں محفلوں میں بدل جاتی ہیں">Where evenings turn into gatherings</h2>
+        <p data-en="A curated street of cafés and eateries, designed for slow mornings and long evenings with neighbours." data-ur="کیفے اور کھانے کی جگہوں کی ایک منتخب اسٹریٹ، آہستہ صبحوں اور پڑوسیوں کے ساتھ لمبی شاموں کے لیے ڈیزائن کی گئی۔">A curated street of cafés and eateries, designed for slow mornings and long evenings with neighbours.</p>
+        <ul class="fac-list">
+          <li data-en="Open-air seating courtyard" data-ur="کھلی فضا میں بیٹھنے کا صحن">Open-air seating courtyard</li>
+          <li data-en="Family dining and fine dining options" data-ur="فیملی ڈائننگ اور فائن ڈائننگ کے اختیارات">Family dining and fine dining options</li>
+          <li data-en="Weekend food truck lane" data-ur="ویک اینڈ فوڈ ٹرک لین">Weekend food truck lane</li>
+        </ul>
+      </div>
+      <div class="fac-media"><img src="https://images.unsplash.com/photo-1600965962361-9035dbfd1c50?auto=format&fit=crop&w=800&q=80" alt="Café District"></div>
+    </div>
+
+    <div class="facility-row reveal">
+      <div>
+        <div class="eyebrow" data-en="Events & Culture" data-ur="تقریبات و ثقافت">Events & Culture</div>
+        <h2 data-en="A lawn for every celebration" data-ur="ہر تقریب کے لیے ایک لان">A lawn for every celebration</h2>
+        <p data-en="A dedicated events lawn and indoor hall for weddings, festivals and community gatherings — right where you live." data-ur="شادیوں، تہواروں اور کمیونٹی اجتماعات کے لیے مخصوص ایونٹس لان اور اندرونی ہال — بالکل وہیں جہاں آپ رہتے ہیں۔">A dedicated events lawn and indoor hall for weddings, festivals and community gatherings — right where you live.</p>
+        <ul class="fac-list">
+          <li data-en="1,000-guest capacity lawn" data-ur="1,000 مہمانوں کی گنجائش والا لان">1,000-guest capacity lawn</li>
+          <li data-en="Climate-controlled indoor hall" data-ur="موسمیاتی کنٹرول انڈور ہال">Climate-controlled indoor hall</li>
+          <li data-en="On-site catering partners" data-ur="آن سائٹ کیٹرنگ پارٹنرز">On-site catering partners</li>
+        </ul>
+      </div>
+      <div class="fac-media"><img src="https://images.unsplash.com/photo-1519167758481-83f29c8b8ba7?auto=format&fit=crop&w=800&q=80" alt="Events Lawn"></div>
+    </div>
+
+    <div class="facility-row reveal">
+      <div>
+        <div class="eyebrow" data-en="Green Courtyards" data-ur="سرسبز صحن">Green Courtyards</div>
+        <h2 data-en="20 acres of parks and walkways" data-ur="پارکس اور واک ویز پر مشتمل 20 ایکڑ">20 acres of parks and walkways</h2>
+        <p data-en="Tree-lined boulevards, jogging tracks and water features that keep the village cool, calm and connected." data-ur="درختوں سے بھرپور بلیوارڈز، جاگنگ ٹریکس اور واٹر فیچرز جو گاؤں کو ٹھنڈا، پرسکون اور منسلک رکھتے ہیں۔">Tree-lined boulevards, jogging tracks and water features that keep the village cool, calm and connected.</p>
+        <ul class="fac-list">
+          <li data-en="2.5km jogging and cycling track" data-ur="2.5 کلومیٹر جاگنگ اور سائیکلنگ ٹریک">2.5km jogging and cycling track</li>
+          <li data-en="Central lake and water feature" data-ur="مرکزی جھیل اور واٹر فیچر">Central lake and water feature</li>
+          <li data-en="Children's parks in every block" data-ur="ہر بلاک میں بچوں کے پارکس">Children's parks in every block</li>
+        </ul>
+      </div>
+      <div class="fac-media"><img src="https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=800&q=80" alt="Green Courtyards"></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container reveal">
+    <h2 data-en="Walk through the facilities in person" data-ur="سہولیات کو ذاتی طور پر دیکھیں">Walk through the facilities in person</h2>
+    <div class="ctas"><a href="contact.html" class="btn btn-gold" data-en="Book a Visit" data-ur="وزٹ بک کریں">Book a Visit</a></div>
+  </div>
+</section>
+<footer>
+  <div class="container foot-grid">
+    <div class="foot-brand">
+      <div class="logo">
+        <div class="logo-mark">من</div>
+        <div class="logo-text"><span class="en" data-en="Man Sukh" data-ur="من سکھ">Man Sukh</span><span class="sub" style="color:var(--gold);" data-en="The Business Village" data-ur="دی بزنس ولیج">The Business Village</span></div>
+      </div>
+      <p data-en="Not just housing — a complete family lifestyle ecosystem, built on trust, community and tomorrow." data-ur="محض رہائش نہیں — اعتماد، برادری اور کل پر تعمیر ایک مکمل خاندانی طرزِ زندگی کا نظام۔">Not just housing — a complete family lifestyle ecosystem, built on trust, community and tomorrow.</p>
+      <div class="foot-social">
+        <a href="#">f</a><a href="#">in</a><a href="#">ig</a><a href="#">yt</a>
+      </div>
+    </div>
+    <div class="foot-col">
+      <h4 data-en="Quick Links" data-ur="فوری روابط">Quick Links</h4>
+      <ul>
+        <li><a href="about.html" data-en="About / Vision" data-ur="ہمارے بارے میں">About / Vision</a></li>
+        <li><a href="master-plan.html" data-en="Master Plan" data-ur="ماسٹر پلان">Master Plan</a></li>
+        <li><a href="investment.html" data-en="Investment" data-ur="سرمایہ کاری">Investment</a></li>
+        <li><a href="properties.html" data-en="Properties" data-ur="پراپرٹیز">Properties</a></li>
+        <li><a href="facilities.html" data-en="Facilities" data-ur="سہولیات">Facilities</a></li>
+        <li><a href="gallery.html" data-en="Gallery" data-ur="گیلری">Gallery</a></li>
+      </ul>
+    </div>
+    <div class="foot-col">
+      <h4 data-en="Contact" data-ur="رابطہ">Contact</h4>
+      <ul>
+        <li>+92 300 0000000</li>
+        <li>info@mansukh.com</li>
+        <li data-en="Main Business Village Road" data-ur="مین بزنس ولیج روڈ">Main Business Village Road</li>
+      </ul>
+    </div>
+    <div class="foot-col">
+      <h4 data-en="Stay Updated" data-ur="اپ ڈیٹ رہیں">Stay Updated</h4>
+      <p style="font-size:.85rem;color:rgba(255,255,255,.55);" data-en="Get news on new phases and offers." data-ur="نئے مراحل اور آفرز کی خبریں حاصل کریں۔">Get news on new phases and offers.</p>
+      <div class="newsletter">
+        <input type="email" placeholder="Your email">
+        <button data-en="Join" data-ur="شامل ہوں">Join</button>
+      </div>
+    </div>
+  </div>
+  <div class="container foot-bottom">
+    <span>&copy; 2026 Man Sukh — The Business Village. All rights reserved.</span>
+    <span data-en="Privacy Policy · Terms of Use" data-ur="پرائیویسی پالیسی · شرائط استعمال">Privacy Policy · Terms of Use</span>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/923000000000" target="_blank" aria-label="WhatsApp">
+  <svg width="30" height="30" viewBox="0 0 24 24" fill="white"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.51 2 12.04 2zm5.8 14.05c-.24.68-1.4 1.3-1.93 1.38-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.17-4.94-4.36-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.19 0 .39 0 .56.01.18.01.42-.07.65.5.24.58.82 2 .89 2.15.07.15.12.32.02.52-.1.19-.15.32-.29.49-.15.17-.31.38-.44.51-.15.15-.3.31-.13.6.17.29.76 1.25 1.63 2.02 1.12 1 2.06 1.31 2.35 1.46.29.15.46.13.63-.08.17-.2.72-.84.91-1.13.19-.29.38-.24.63-.15.26.1 1.64.77 1.92.91.28.14.47.21.53.33.07.12.07.68-.17 1.36z"/></svg>
+</a>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">&times;</span>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
