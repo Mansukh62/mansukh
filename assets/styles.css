@@ -110,7 +110,7 @@
     min-height:100vh;display:flex;align-items:center;position:relative;
     background:
       linear-gradient(180deg, rgba(18,53,40,.55) 0%, rgba(18,53,40,.72) 60%, rgba(18,53,40,.92) 100%),
-      url('assets/logo.png') center/cover no-repeat;
+      url('bgpic.png') center/cover no-repeat;
     padding-top:120px;padding-bottom:90px;
 }
   .hero-inner{max-width:760px;}
