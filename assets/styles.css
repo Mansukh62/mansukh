@@ -37,9 +37,7 @@
   .urdu{
   font-family: var(--font-urdu);
   direction: rtl;
-  text-align: right;
-  overflow-wrap: break-word;
-  word-break: keep-all;
+  line-height: 1.9;
 }
 
   /* reveal on scroll */
@@ -122,9 +120,9 @@
   .hero-inner{max-width:760px;}
   .hero .eyebrow{color:var(--gold);}
   .hero .eyebrow::before{background:var(--gold);}
-  .hero h1{
-    font-size:clamp(2.3rem,5vw,3.8rem);color:var(--white);font-weight:600;margin-bottom:22px;
-  }
+ .hero h1{
+    font-size:clamp(2.3rem,5vw,3.8rem);color:var(--white);font-weight:600;margin-bottom:22px;line-height:1.7;
+}
   .hero h1 em{font-style:italic;color:var(--gold);}
   .hero p.lead{color:rgba(255,255,255,.86);font-size:1.05rem;max-width:560px;margin-bottom:38px;line-height:1.75;}
   .hero-ctas{display:flex;gap:18px;flex-wrap:wrap;}
