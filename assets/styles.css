@@ -34,7 +34,13 @@
     color:var(--gold-deep);font-weight:600;display:inline-flex;align-items:center;gap:10px;margin-bottom:14px;
   }
   .eyebrow::before{content:"";width:26px;height:1px;background:var(--gold-deep);display:inline-block;}
-  .urdu{font-family:var(--font-urdu);direction:rtl;}
+  .urdu{
+  font-family: var(--font-urdu);
+  direction: rtl;
+  text-align: right;
+  overflow-wrap: break-word;
+  word-break: keep-all;
+}
 
   /* reveal on scroll */
   .reveal{opacity:0;transform:translateY(28px);transition:opacity .9s var(--ease), transform .9s var(--ease);}
