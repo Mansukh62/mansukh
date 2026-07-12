@@ -106,13 +106,13 @@
   .burger span{height:2px;width:100%;background:var(--green-deep);}
 
   /* ---------- HERO ---------- */
-  .hero{
+ .hero{
     min-height:100vh;display:flex;align-items:center;position:relative;
     background:
       linear-gradient(180deg, rgba(18,53,40,.55) 0%, rgba(18,53,40,.72) 60%, rgba(18,53,40,.92) 100%),
-      url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+      url('assets/logo.png') center/cover no-repeat;
     padding-top:120px;padding-bottom:90px;
-  }
+}
   .hero-inner{max-width:760px;}
   .hero .eyebrow{color:var(--gold);}
   .hero .eyebrow::before{background:var(--gold);}
