@@ -62,3 +62,18 @@ function filterGallery(cat, btn){
     item.style.display = (cat==='all' || item.dataset.cat===cat) ? '' : 'none';
   });
 }
+window.addEventListener("scroll",function(){
+
+const header=document.getElementById("siteHeader");
+
+if(window.scrollY>60){
+
+header.classList.add("scrolled");
+
+}else{
+
+header.classList.remove("scrolled");
+
+}
+
+});
