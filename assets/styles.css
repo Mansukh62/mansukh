@@ -792,3 +792,67 @@ background:white;
 color:#111;
 
 }
+/* Missing hero stats + scroll indicator styles */
+@keyframes heroZoom{
+  0%{transform:scale(1);}
+  100%{transform:scale(1.12);}
+}
+
+.hero-stats-wrap{
+  position:absolute;
+  bottom:0; left:0; right:0;
+  z-index:5;
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  max-width:1240px;
+  margin:0 auto;
+  background:rgba(255,255,255,0.06);
+  border-top:1px solid rgba(255,255,255,0.18);
+  backdrop-filter:blur(6px);
+}
+.hero-stat-card{
+  padding:22px 20px;
+  text-align:center;
+  border-right:1px solid rgba(255,255,255,0.15);
+  color:#fff;
+}
+.hero-stat-card:last-child{border-right:none;}
+.hero-stat-card h3{
+  font-family:var(--font-head);
+  color:var(--gold);
+  font-size:1.5rem;
+  font-weight:700;
+  margin-bottom:4px;
+}
+.hero-stat-card span{
+  color:rgba(255,255,255,.75);
+  font-size:.72rem;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+
+.scroll-indicator{
+  position:absolute;
+  left:50%;
+  bottom:40px;
+  transform:translateX(-50%);
+  z-index:5;
+  color:rgba(255,255,255,.6);
+  font-size:.72rem;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:10px;
+}
+.scroll-indicator span{
+  width:1px; height:50px;
+  background:rgba(255,255,255,.5);
+  display:block;
+}
+
+/* Slightly tone down hero heading so it doesn't crowd on laptop screens */
+.hero-content h1{
+  font-size:clamp(2.4rem,5.5vw,5.2rem);
+}
